@@ -8,19 +8,35 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Formulario trabajo chiloe</h1>
+    <br>
+    <i><h1>FORMULARIO TRABAJO CHILOE</h1></i>
     <br>
     <div>
-        <form action="">Nombre: <input type="text" name="nombre" placeholder="Ingrese su nombre"></form>
-        <form action="">Apellido Paterno: <input type="text" name="ApellidoPaterno" placeholder="Ingrese su apellido paterno"></form>
-        <form action="">Apellido Materno: <input type="text" name="NombreMaterno" placeholder="Ingrese su apellido materno"></form>
-        <form action="">Edad: <input type="number" name="edad" placeholder="Ingrese su edad"></form>
-        <form action="">Género: <input type="text" name="genero" placeholder="Ingrese su género"></form>
-        <form action="">Télefono: <input type="number" name="telefono" placeholder="Ingrese su edad"></form>
-        <div>
-        <input type="submit" value="Enviar" onclick="alerta()">
-        <input type="button" value="Enviar carta" >
-        </div>
+        <b>
+            <fieldset>
+                <form action="">Nombre: <input type="text" name="nombre" placeholder="Ingrese su nombre"></form>
+                <form action="">Apellido Paterno: <input type="text" name="ApellidoPaterno" placeholder="Ingrese su apellido paterno"></form>
+                <form action="">Apellido Materno: <input type="text" name="NombreMaterno" placeholder="Ingrese su apellido materno"></form>
+                <form action="">Edad: <input type="date" name="edad" placeholder="Ingrese su edad"></form>
+                    <div class="genero">
+                        <label for="genero">Género</label>                         
+                        <select name="Genero" id="genero" >
+                            <option value="1">Masculino</option>
+                            <option value="2">Femenino</option>
+                            <option value="3">No binario</option>
+                            <option value="4">Otro</option>
+                        </select>
+                    </div>
+                <form action="">Télefono: <input type="number" name="telefono" placeholder="Ingrese su edad"></form>
+                    <div class="botones">
+                        <input type="submit" value="Enviar" onclick="alerta()">
+                        <input type="button" value="Enviar carta" >
+                    </div>
+                    <p class="carta">CARTA:</p>
+                    <div class="txt-area"><textarea name="texto" cols="40" rows="10"></textarea></div>
+            </fieldset>
+        </b>
+        
         
     </div>
 

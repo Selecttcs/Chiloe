@@ -4,13 +4,24 @@ body{
 }
 h1{
     margin-left: 700px;
+    text-decoration-line: overline;
+    text-shadow: #bc93ff;
+    font-size: 40px;
 }
 div{
 }
 form{
     margin-left: 700px;
 }
-input{
-    
-
+.txt-area{
+    margin-left: 1200px;
+}
+.botones{
+    margin-left: 700px;
+}
+.genero{
+    margin-left: 900px;
+}
+.carta{
+    margin-left: 1200px;
 }
