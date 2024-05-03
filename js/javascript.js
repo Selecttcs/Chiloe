@@ -1,0 +1,6 @@
+
+
+$('#nombre').focus(function({
+
+}))
+
