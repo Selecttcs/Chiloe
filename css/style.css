@@ -14,3 +14,7 @@ input{
     
 
 }
+
+#ocultar {
+   visibility: hidden;
+}
